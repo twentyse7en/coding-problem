@@ -30,3 +30,26 @@ The purpose of zip() is to map the similar index of multiple containers so that 
 >>zip( name, value)
 >><zip at 0x7fe9500a7780>
 ```
+#### Count in List
+count() is an inbuilt function in Python that returns count of how many times a given object occurs in list
+```py
+>>list3 = ['Cat', 'Bat', 'Sat', 'Cat', 'cat', 'Mat'] 
+  
+>># Counts the number of times 'Cat' appears in list3 
+>>print(list3.count('Cat')) 
+>>2
+```
+#### in Operation
+The ‘in’ operator is used to check if a value exists in a sequence or not.
+```py
+>>list1=[1,2,3,4]
+>>4 in list1
+True
+```
+#### Sort a list 
+sorted() built-in function that builds a new sorted list from an iterable
+```py
+>>sorted([7,9,3,2,2])
+[2, 2, 3, 7, 9]
+```
+
